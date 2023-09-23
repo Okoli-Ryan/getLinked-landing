@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import MenuLogo from "../../public/images/common/menu.svg";
+import MenuLogo from "@images/common/menu.svg";
+
 import Logo from "./Logo";
 import PrimaryButton from "./PrimaryButton";
 
