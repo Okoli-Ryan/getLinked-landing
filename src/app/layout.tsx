@@ -2,14 +2,14 @@ import "./globals.css";
 
 import { Montserrat } from "next/font/google";
 
+import Footer from "@/components/Footer";
 import localFont from "@next/font/local";
 
 import Header from "../components/Header";
 
 import type { Metadata } from "next";
-
 // Fonts
-const montserrat = Montserrat({ subsets: ["latin"], style: "italic", weight: "700", variable: "--font-montserrat" });
+const montserrat = Montserrat({ subsets: ["latin"], style: ["normal", "italic"], weight: ["400", "500", "700"], variable: "--font-montserrat" });
 const clashDisplay = localFont({ src: "../../public/fonts/ClashDisplay.ttf", variable: "--font-clash" });
 
 export const metadata: Metadata = {
@@ -20,9 +20,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en" className={`${clashDisplay.variable} ${montserrat.variable} bg-backgroundColor`}>
-			<body>
+			<body className="relative">
 				<Header />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);

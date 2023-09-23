@@ -3,14 +3,18 @@
 @tailwind utilities;
 
 html, body {
-    @apply h-full bg-darkPrimary
+    @apply min-h-full bg-darkPrimary
 }
 
-h1, h2, h3, h4, h5, h6, p, span {
+h1, h2, h3, h4, h5, h6, p, span, a {
     @apply text-white
 }
 
 .container {
-    width: clamp(16rem, 90vw, 1280px);
+    width: clamp(16rem, 85vw, 1280px);
     margin: 0 auto;
+}
+
+.divider {
+    @apply h-[1px] bg-[#FFFFFF2E] w-screen
 }
