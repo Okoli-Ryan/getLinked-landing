@@ -4,9 +4,11 @@ import React from "react";
 export default function Partners() {
 	return (
 		<div className="container py-12">
-			<h3 className="text-xl font-bold text-center">Partners and Sponsors</h3>
-			<div className="flex flex-col gap-8">
-				<p className="text-sm text-center">Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors</p>
+			<h3 className="text-xl font-bold text-center md:text-3xl">Partners and Sponsors</h3>
+			<div className="flex flex-col gap-8 mt-4">
+				<p className="text-sm text-center md:text-base">
+					Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors
+				</p>
 			</div>
 			<div className="border-primary border-2 rounded-md mt-12 flex items-center justify-center py-12 md:py-36 px-4">
 				<div className="grid grid-cols-3">
