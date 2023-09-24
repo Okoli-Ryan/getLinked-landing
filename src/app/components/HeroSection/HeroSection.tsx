@@ -5,7 +5,7 @@ import PrimaryButton from "@/components/PrimaryButton";
 
 export default function HeroSection() {
 	return (
-		<div className="min-h-screen md:h-[calc(100vh-8rem)] pt-8">
+		<div className="min-h-screen md:h-screen pt-8">
 			<h2 className="font-montserrat container text-center italic font-bold md:text-right md:text-4xl">Igniting a Revolution in HR Innovation</h2>
 			<div className="flex flex-col md:flex-row">
 				<div className="flex flex-col container w-full md:w-1/2 md:pl-[7.5vw] md:pt-16">
@@ -40,13 +40,7 @@ export default function HeroSection() {
 					</div>
 				</div>
 				<div className="mt-4 w-full md:w-1/2">
-					<Image
-						height={800}
-						width={700}
-						src="/images/home/Hero-image.png"
-						alt="Hero image"
-						className="w-full h-auto object-contain md:h-[calc(100%-8rem)]"
-					/>
+					<Image height={800} width={700} src="/images/home/Hero-image.png" alt="Hero image" className="w-full h-auto object-cover" />
 				</div>
 			</div>
 		</div>
