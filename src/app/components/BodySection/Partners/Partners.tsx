@@ -1,13 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-import LibertyAssured from "@images/home/Liberty Assured.svg";
-import LibertyPay from "@images/home/Liberty company logo white.svg";
-import Paybox from "@images/home/Paybox.svg";
-import VuzualPlus from "@images/home/Vizual Plus.svg";
-import WinWise from "@images/home/Winwise logo White colour 1.svg";
-import WhisperSms from "@images/home/wisper logo white.svg";
-
 export default function Partners() {
 	return (
 		<div className="container py-12">
@@ -18,29 +11,59 @@ export default function Partners() {
 			<div className="border-primary border-2 rounded-md mt-12 flex items-center justify-center py-12 md:py-36 px-4">
 				<div className="grid grid-cols-3">
 					<div className="p-3 relative">
-						<Image src={LibertyAssured} className="h-8 object-contain md:h-12 w-full" alt="Liberty Assured Partner" />
+						<Image
+							width={33}
+							height={31}
+							src="/images/home/Liberty Assured.svg"
+							className="h-8 object-contain md:h-12 w-full"
+							alt="Liberty Assured Partner"
+						/>
 						<div className="h-4/5 bg-pink w-[2px] absolute top-0 right-0"></div>
 						<div className="h-[2px] bg-pink w-4/5 absolute bottom-0 left-[50%] -translate-x-[50%]"></div>
 					</div>
 					<div className="p-3 relative">
-						<Image src={LibertyPay} className="h-8 object-contain md:h-12 w-full" alt="Liberty Pay Partner" />
+						<Image
+							width={57}
+							height={12}
+							src="/images/home/Liberty company logo white.svg"
+							className="h-8 object-contain md:h-12 w-full"
+							alt="Liberty Pay Partner"
+						/>
 						<div className="h-4/5 bg-pink w-[2px] absolute top-0 right-0"></div>
 						<div className="h-[2px] bg-pink w-4/5 absolute bottom-0 left-[50%] -translate-x-[50%]"></div>
 					</div>
 					<div className="p-3 relative">
-						<Image src={WinWise} className="h-8 object-contain md:h-12 w-full" alt="WinWise Partner" />
+						<Image
+							width={36}
+							height={29}
+							src="/images/home/Winwise logo White colour 1.svg"
+							className="h-8 object-contain md:h-12 w-full"
+							alt="WinWise Partner"
+						/>
 						<div className="h-[2px] bg-pink w-4/5 absolute bottom-0 left-[50%] -translate-x-[50%]"></div>
 					</div>
 					<div className="p-3 relative">
-						<Image src={WhisperSms} className="h-8 object-contain md:h-12 w-full" alt="WhisperSms Partner" />
+						<Image
+							width={40}
+							height={30}
+							src="/images/home/wisper logo white.svg"
+							className="h-8 object-contain md:h-12 w-full"
+							alt="WhisperSms Partner"
+						/>
 						<div className="h-4/5 bg-pink w-[2px] absolute bottom-0 -translate-y-[5%] right-0"></div>
 					</div>
 					<div className="p-3 relative">
-						<Image src={Paybox} className="h-8 object-contain md:h-12 w-full" alt="Paybox Partner" />
+						<Image width={45} height={13} src="/images/home/Paybox.svg" className="h-8 object-contain md:h-12 w-full" alt="Paybox Partner" />
 						<div className="h-4/5 bg-pink w-[2px] absolute bottom-0 -translate-y-[5%] right-0 "></div>
 					</div>
 					<div className="p-3 relative">
-						<Image src={VuzualPlus} className="h-8 object-contain md:h-12 w-full" alt="VuzualPlus Partner" />
+						<Image
+							width={69}
+							height={74}
+							src="/images/home/Vizual Plus.svg"
+							className="h-8 object-contain md:h-12 w-full"
+							alt="VuzualPlus Partner"
+						/>
 					</div>
 				</div>
 			</div>

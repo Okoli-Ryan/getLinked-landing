@@ -30,13 +30,13 @@ export default function Privacy() {
 						<h5 className="font-montserrat font-bold md:text-lg">Here are terms of our Standard License:</h5>
 					</div>
 					<div className="flex gap-4 mt-4">
-						<Image src={CheckIcon} className="w-4 h-4" alt="Check icon" />
+						<Image width={20} height={20} src="/images/common/check.svg" className="w-4 h-4" alt="Check icon" />
 						<p className="text-sm font-montserrat leading-[20px] md:text-base">
 							The Standard License grants you a non-exclusive right to navigate and register for our event
 						</p>
 					</div>
 					<div className="flex gap-4 mt-4">
-						<Image src={CheckIcon} className="w-4 h-4" alt="Check icon" />
+						<Image width={20} height={20} src="/images/common/check.svg" className="w-4 h-4" alt="Check icon" />
 						<p className="text-sm font-montserrat leading-[20px] md:text-base">
 							You are licensed to use the item available at any free source sites, for your project developement
 						</p>
@@ -44,7 +44,7 @@ export default function Privacy() {
 					<PrimaryButton className="mx-auto px-4 py-2 mt-8">Read More</PrimaryButton>
 				</div>
 			</div>
-			<Image src={PrivacyIcon} className="h-auto w-full mt-12" alt="Privacy icon" />
+			<Image width={275} height={450} src="/images/home/privacyIcon.png" className="h-auto w-full mt-12" alt="Privacy icon" />
 		</div>
 	);
 }
