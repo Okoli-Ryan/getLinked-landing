@@ -46,7 +46,7 @@ export default function Rewards() {
 									src="/images/home/gold_medal 1.png"
 									width={125}
 									height={125}
-									className="w-auto absolute h-full max-h-[10rem] object-contain -top-[7.5rem] max-w-[15rem]"
+									className="w-[400%] absolute h-auto max-h-[8rem] object-contain -top-[6rem] max-w-[24rem]"
 									alt="Gold medal"
 								/>
 								<h2 className="font-montserrat font-bold text-sm mt-20">1st </h2>
