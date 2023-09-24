@@ -18,9 +18,9 @@ export default function BodySection() {
 					<span className="text-primary">tech Hackathon 1.0</span>
 				</h3>
 				<p className="text-montserrat text-center md:text-left text-sm md:text-base">
-					Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius,
-					a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing
-					the boundaries of technology, and creating solutions that can change the world, that's what we're all about!
+					Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you&apos;re a coding
+					genius, a design maverick, or a concept wizard, you&apos;ll have the chance to transform your ideas into reality. Solving real-world
+					problems, pushing the boundaries of technology, and creating solutions that can change the world, that&apos;s what we&apos;re all about!
 				</p>
 			</AlternateCard>
 			<div className="divider"></div>
@@ -30,9 +30,9 @@ export default function BodySection() {
 					<span className="text-primary">Guidelines</span>
 				</h3>
 				<p className="text-montserrat text-center md:text-left text-sm md:text-base">
-					Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius,
-					a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing
-					the boundaries of technology, and creating solutions that can change the world, that's what we're all about!
+					Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you&apos;re a coding
+					genius, a design maverick, or a concept wizard, you&apos;ll have the chance to transform your ideas into reality. Solving real-world
+					problems, pushing the boundaries of technology, and creating solutions that can change the world, that&apos;s what we&apos;re all about!
 				</p>
 			</AlternateCard>
 			<div className="divider"></div>
@@ -85,12 +85,12 @@ export default function BodySection() {
 			</AlternateCard>
 			<div className="divider"></div>
 			<Timeline />
-			{/* <div className="divider"></div>
-			<Rewards /> */}
-			{/* <div className="divider"></div>
-			<Partners /> */}
-			{/* <div className="divider"></div>
-			<Privacy /> */}
+			<div className="divider"></div>
+			<Rewards />
+			<div className="divider"></div>
+			<Partners />
+			<div className="divider"></div>
+			<Privacy />
 			<div className="divider"></div>
 		</div>
 	);
