@@ -91,10 +91,10 @@ export default function BodySection() {
 			<Timeline />
 			{/* <div className="divider"></div>
 			<Rewards /> */}
-			<div className="divider"></div>
-			<Partners />
-			<div className="divider"></div>
-			<Privacy />
+			{/* <div className="divider"></div>
+			<Partners /> */}
+			{/* <div className="divider"></div>
+			<Privacy /> */}
 			<div className="divider"></div>
 		</div>
 	);
