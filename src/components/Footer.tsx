@@ -2,13 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import CallIcon from "@images/common/call-icon.svg";
-import FacebookIcon from "@images/common/facebook.svg";
-import InstagramIcon from "@images/common/instagram-icon.svg";
-import LinkedinIcon from "@images/common/linkedin-icon.svg";
-import LocationIcon from "@images/common/location.svg";
-import XIcon from "@images/common/x-icon.svg";
-
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -41,20 +34,20 @@ export default function Footer() {
 				</Link>
 				<div className="flex gap-4 items-center">
 					<span className="text-primary text-sm font-montserrat">Follow us</span>
-					<Image className="h-6 w-6" src={InstagramIcon} alt="Instagram icon" />
-					<Image className="h-6 w-6" src={XIcon} alt="X icon" />
-					<Image className="h-6 w-6" src={FacebookIcon} alt="Facebook icon" />
-					<Image className="h-6 w-6" src={LinkedinIcon} alt="Linkedin icon" />
+					<Image height={20} width={20} className="h-6 w-6" src="/images/common/instagram-icon.svg" alt="Instagram icon" />
+					<Image height={20} width={20} className="h-6 w-6" src="/images/common/x-icon.svg" alt="X icon" />
+					<Image height={20} width={20} className="h-6 w-6" src="/images/common/facebook.svg" alt="Facebook icon" />
+					<Image height={20} width={20} className="h-6 w-6" src="/images/common/linkedin-icon.svg" alt="Linkedin icon" />
 				</div>
 			</div>
 			<div className="flex flex-col gap-4 mt-12">
 				<h3 className="text-primary font-semibold font-montserrat">Contact Us</h3>
 				<div className="flex gap-4 items-center">
-					<Image className="h-3 w-3" src={CallIcon} alt="Instagram icon" />
+					<Image height={20} width={20} className="h-3 w-3" src="/images/common/call-icon.svg" alt="Call icon" />
 					<p className="font-montserrat text-sm">+234 6707653444 </p>
 				</div>
 				<div className="flex gap-4 mt-2">
-					<Image className="h-3 w-3" src={LocationIcon} alt="Instagram icon" />
+					<Image height={20} width={20} className="h-3 w-3" src="/images/common/location.svg" alt="Location icon" />
 					<p className="font-montserrat text-sm max-w-[8rem]">27, Alara Street Yaba 100012 Lagos State</p>
 				</div>
 			</div>

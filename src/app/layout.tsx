@@ -10,7 +10,7 @@ import Header from "../components/Header";
 import type { Metadata } from "next";
 // Fonts
 const montserrat = Montserrat({ subsets: ["latin"], style: ["normal", "italic"], weight: ["400", "500", "700"], variable: "--font-montserrat" });
-const clashDisplay = localFont({ src: "../fonts/ClashDisplay.ttf", variable: "--font-clash" });
+const clashDisplay = localFont({ src: "../../public/fonts/ClashDisplay.ttf", variable: "--font-clash" });
 
 export const metadata: Metadata = {
 	title: "GetLinked",

@@ -2,9 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 import PrimaryButton from "@/components/PrimaryButton";
-import Fire from "@images/home/fire.png";
-import HeroImage from "@images/home/hero-image.png";
-import Chain from "@images/home/link.png";
 
 export default function HeroSection() {
 	return (
@@ -17,10 +14,10 @@ export default function HeroSection() {
 						<h1 className="flex flex-nowrap md:text-left whitespace-nowrap text-3xl text-center justify-center md:justify-start font-bold w-full md:text-5xl">
 							Hackathon &nbsp;<span className="text-primary">1.0</span>
 							<span className="flex-shrink-0">
-								<Image src={Chain} alt="Chain logo" className="object-contain md:w-12 md:h-12" />
+								<Image height={25} width={25} src="/images/home/link.png" alt="Chain logo" className="object-contain md:w-12 md:h-12" />
 							</span>
 							<span className="flex-shrink-0">
-								<Image src={Fire} alt="fire logo" className="object-contain md:w-12 md:h-12" />
+								<Image height={25} width={25} src="/images/home/fire.png" alt="fire logo" className="object-contain md:w-12 md:h-12" />
 							</span>
 						</h1>
 					</div>
@@ -43,7 +40,13 @@ export default function HeroSection() {
 					</div>
 				</div>
 				<div className="mt-4 w-full md:w-1/2">
-					<Image src={HeroImage} alt="Hero image" className="w-full h-auto object-contain md:h-[calc(100%-8rem)]" />
+					<Image
+						height={800}
+						width={700}
+						src="/images/home/Hero-image.png"
+						alt="Hero image"
+						className="w-full h-auto object-contain md:h-[calc(100%-8rem)]"
+					/>
 				</div>
 			</div>
 		</div>

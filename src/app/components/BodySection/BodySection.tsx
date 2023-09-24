@@ -2,10 +2,6 @@ import React from "react";
 
 import AlternateCard from "@/components/AlternateCard";
 import PrimaryButton from "@/components/PrimaryButton";
-import ThinkingIllustration from "@images/home/accordion-illustration.png";
-import ChartIllustration from "@images/home/chart-illustration.png";
-import CheckboxIllustration from "@images/home/checkbox-illustration.png";
-import TheBigIdea from "@images/home/the-big-idea.png";
 
 import AccordionSection from "./AccordionSection";
 import Partners from "./Partners";
@@ -16,7 +12,7 @@ import Timeline from "./Timeline";
 export default function BodySection() {
 	return (
 		<div className="flex gap-4 flex-col items-center border-b-[1px] border-[#FFFFFF2E]">
-			<AlternateCard image={TheBigIdea} className="container">
+			<AlternateCard image="/images/home/the-big-idea.png" className="container">
 				<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
 					Introduction to getlinked <br />
 					<span className="text-primary">tech Hackathon 1.0</span>
@@ -28,7 +24,7 @@ export default function BodySection() {
 				</p>
 			</AlternateCard>
 			<div className="divider"></div>
-			<AlternateCard className="container" image={CheckboxIllustration}>
+			<AlternateCard className="container" image="/images/home/checkbox-illustration.png">
 				<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
 					Rules and <br />
 					<span className="text-primary">Guidelines</span>
@@ -41,7 +37,7 @@ export default function BodySection() {
 			</AlternateCard>
 			<div className="divider"></div>
 
-			<AlternateCard className="container" image={ChartIllustration}>
+			<AlternateCard className="container" image="/images/home/chart-illustration.png">
 				<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
 					Judging Criteria <br />
 					<span className="text-primary">Key attributes</span>
@@ -75,7 +71,7 @@ export default function BodySection() {
 			</AlternateCard>
 			<div className="divider"></div>
 
-			<AlternateCard className="container" image={ThinkingIllustration}>
+			<AlternateCard className="container" image="/images/home/accordion-illustration.png">
 				<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
 					Frequently Ask <br />
 					<span className="text-primary">Question</span>
