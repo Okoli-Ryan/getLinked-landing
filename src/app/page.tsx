@@ -1,3 +1,5 @@
+import Radial from "@/components/Radial";
+
 import BodySection from "./components/BodySection";
 import FAQ from "./components/Faq";
 import HeroSection from "./components/HeroSection";
@@ -8,7 +10,7 @@ import Timeline from "./components/Timeline";
 
 export default function Home() {
 	return (
-		<div className="">
+		<div className="relative w-full">
 			<HeroSection />
 			<BodySection />
 			<FAQ />

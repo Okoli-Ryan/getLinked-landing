@@ -1,31 +1,37 @@
 import Image from "next/image";
 import React from "react";
 
+import Radial from "@/components/Radial";
+
 export default function Rewards() {
 	return (
-		<>
-			<div className="container py-12">
+		<div className="relative">
+			<Radial className="w-full -left-[30%] h-auto top-0 " />
+			<Radial className="w-full h-auto -right-[60%] top-20" />
+			<div className="container py-12 z-30 relative">
 				<div className="block md:hidden">
-					<h3 className="text-xl font-bold text-center md:text-3xl">
+					<h3 className="text-xl font-bold md:text-left text-center md:text-3xl">
 						Prizes and <br />
 						<span className="text-primary">Rewards</span>
 					</h3>
 					<div className="flex flex-col gap-8">
-						<p className="text-sm text-center md:text-base">Highlight of the prizes or rewards for winners and for participants.</p>
+						<p className="text-sm text-center md:text-base md:text-left">Highlight of the prizes or rewards for winners and for participants.</p>
 					</div>
 				</div>
 				<div className="flex flex-col md:flex-row gap-8">
 					<div className="w-full md:w-2/5">
-						<Image width={320} height={280} src="/images/home/Reward.png" className="w-full h-auto" alt="Rewards illustration" />
+						<Image width={320} height={280} src="/images/home/Reward.png" className="w-full h-auto z-30 relative" alt="Rewards illustration" />
 					</div>
 					<div className="flex flex-col w-full md:w-3/5">
-						<div className="hidden md:block">
-							<h3 className="text-xl font-bold text-center md:text-3xl">
+						<div className="hidden md:block mx-auto md:max-w-sm">
+							<h3 className="text-xl font-bold text-center md:text-3xl md:text-left">
 								Prizes and <br />
 								<span className="text-primary">Rewards</span>
 							</h3>
 							<div className="flex flex-col gap-8">
-								<p className="text-sm text-center md:text-base">Highlight of the prizes or rewards for winners and for participants.</p>
+								<p className="text-sm text-center md:text-base md:text-left">
+									Highlight of the prizes or rewards for winners and for participants.
+								</p>
 							</div>
 						</div>
 						<div className="flex gap-4 mt-36 w-full justify-center">
@@ -70,6 +76,6 @@ export default function Rewards() {
 				</div>
 			</div>
 			<div className="divider"></div>
-		</>
+		</div>
 	);
 }

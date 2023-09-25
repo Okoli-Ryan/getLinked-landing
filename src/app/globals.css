@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body {
-    @apply min-h-full bg-darkPrimary overflow-x-hidden
+    @apply min-h-full bg-darkPrimary scroll-smooth scroll-p-16
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a {

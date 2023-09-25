@@ -2,13 +2,16 @@ import Image from "next/image";
 import React from "react";
 
 import PrimaryButton from "@/components/PrimaryButton";
+import Radial from "@/components/Radial";
 import CheckIcon from "@images/common/check.svg";
 import PrivacyIcon from "@images/home/privacyIcon.png";
 
 export default function Privacy() {
 	return (
-		<>
-			<div className="container py-12 grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+		<div className="relative">
+			<Radial className="w-full -left-[30%] h-auto bottom-0 " />
+			<Radial className="w-full h-auto -right-[60%] bottom-20" />
+			<div className="container py-12 grid grid-cols-1 md:grid-cols-2 gap-4 items-center relative z-30">
 				<div className="div">
 					<h3 className="text-xl font-bold text-center md:text-3xl md:text-left">
 						Privacy Policy and <br />
@@ -48,6 +51,6 @@ export default function Privacy() {
 				<Image width={275} height={450} src="/images/home/privacyIcon.png" className="h-auto w-full mt-12" alt="Privacy icon" />
 			</div>
 			<div className="divider"></div>
-		</>
+		</div>
 	);
 }

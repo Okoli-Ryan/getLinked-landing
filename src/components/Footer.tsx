@@ -33,7 +33,7 @@ export default function Footer() {
 						<Link href="#faq" className="font-montserrat text-sm">
 							FAQs
 						</Link>
-						<Link href="/register" className="font-montserrat text-sm">
+						<Link href="#" className="font-montserrat text-sm">
 							Register
 						</Link>
 						<div className="flex gap-4 items-center">
@@ -57,7 +57,7 @@ export default function Footer() {
 					</div>
 				</div>
 			</footer>
-			<div className="mt-12 text-center text-sm font-montserrat text-white">All rights reserved. © getlinked Ltd.</div>
+			<div className="mt-12 text-center text-sm font-montserrat mb-8 text-white">All rights reserved. © getlinked Ltd.</div>
 		</>
 	);
 }

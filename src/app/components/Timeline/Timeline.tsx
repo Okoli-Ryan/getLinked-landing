@@ -5,7 +5,7 @@ import { TIMELINE } from "./Timeline.data";
 export default function Timeline() {
 	return (
 		<>
-			<div className={`flex flex-col gap-8 py-12 container`}>
+			<div className={`flex flex-col gap-8 py-12 container`} id="timeline">
 				<h3 className="text-xl font-bold text-center md:text-3xl">Timeline</h3>
 				<p className="text-sm text-center md:text-base">Here is the breakdown of the time we anticipate using for the upcoming event.</p>
 				<div className="flex flex-col gap-8 md:gap-0 md:mt-8">

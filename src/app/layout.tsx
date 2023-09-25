@@ -5,7 +5,7 @@ import { Montserrat } from "next/font/google";
 import Footer from "@/components/Footer";
 import localFont from "@next/font/local";
 
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 
 import type { Metadata } from "next";
 // Fonts
@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 		<html lang="en" className={`${clashDisplay.variable} ${montserrat.variable} bg-backgroundColor`}>
 			<body className="relative">
 				<Header />
-				{children}
+				<div className="overflow-x-hidden">{children}</div>
 				<Footer />
 			</body>
 		</html>

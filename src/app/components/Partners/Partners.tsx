@@ -4,7 +4,7 @@ import React from "react";
 export default function Partners() {
 	return (
 		<>
-			<div className="container py-12">
+			<div className="container py-12 relative z-30">
 				<h3 className="text-xl font-bold text-center md:text-3xl">Partners and Sponsors</h3>
 				<div className="flex flex-col gap-8 mt-4">
 					<p className="text-sm text-center md:text-base">

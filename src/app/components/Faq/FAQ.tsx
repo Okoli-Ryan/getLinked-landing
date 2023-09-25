@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import AlternateCard from "@/components/AlternateCard";
+import AlternateCard from '@/components/AlternateCard';
 
-import AccordionSection from "./AccordionSection";
+import AccordionSection from './AccordionSection';
 
 export default function FAQ() {
 	return (
-		<>
-			<AlternateCard className="container" image="/images/home/accordion-illustration.png">
+		<div id="faq">
+			<AlternateCard className="container md:flex-row-reverse" image="/images/home/accordion-illustration.png">
 				<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
 					Frequently Ask <br />
 					<span className="text-primary">Question</span>
@@ -20,6 +20,6 @@ export default function FAQ() {
 				</div>
 			</AlternateCard>
 			<div className="divider"></div>
-		</>
+		</div>
 	);
 }

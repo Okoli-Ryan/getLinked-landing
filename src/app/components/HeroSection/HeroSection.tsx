@@ -5,9 +5,14 @@ import PrimaryButton from "@/components/PrimaryButton";
 
 export default function HeroSection() {
 	return (
-		<div className="min-h-screen md:h-screen pt-8">
-			<h2 className="font-montserrat container text-center italic font-bold md:text-right md:text-4xl">Igniting a Revolution in HR Innovation</h2>
-			<div className="flex flex-col md:flex-row">
+		<div className="min-h-screen md:h-screen pt-8 relative z-50" id="home">
+			<h2 className="font-montserrat container text-center text-xs sm:text-base italic font-bold md:text-right md:text-4xl z-[60] ">
+				Igniting a Revolution in{" "}
+				<span className="relative">
+					HR Innovation <Image src="/images/home/line.svg" alt="line" width={253} height={11} className="absolute -bottom-[1rem] right-0" />
+				</span>
+			</h2>
+			<div className="flex flex-col md:flex-row z-[60]">
 				<div className="flex flex-col container w-full md:w-1/2 md:pl-[7.5vw] md:pt-16">
 					<div className="flex flex-wrap items-center mt-12">
 						<h1 className="text-3xl text-center md:text-left md:text-5xl font-bold w-full">getlinked Tech</h1>

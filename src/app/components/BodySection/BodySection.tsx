@@ -1,17 +1,12 @@
-import React from 'react';
-
-import AlternateCard from '@/components/AlternateCard';
-import PrimaryButton from '@/components/PrimaryButton';
-
-import AccordionSection from '../Faq/AccordionSection';
-import Partners from '../Partners';
-import Privacy from '../Privacy';
-import Rewards from '../Rewards';
-import Timeline from '../Timeline';
+import AlternateCard from "@/components/AlternateCard";
+import PrimaryButton from "@/components/PrimaryButton";
+import Radial from "@/components/Radial";
 
 export default function BodySection() {
 	return (
 		<>
+			<Radial className="w-full -left-[30%] h-auto top-0 " />
+			<Radial className="w-full h-auto -right-[60%] top-20" />
 			<div className="flex gap-4 flex-col items-center">
 				<AlternateCard image="/images/home/the-big-idea.png" className="container">
 					<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
@@ -26,12 +21,14 @@ export default function BodySection() {
 					</p>
 				</AlternateCard>
 				<div className="divider"></div>
-				<AlternateCard className="container" image="/images/home/checkbox-illustration.png">
-					<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
+				<AlternateCard className="container md:flex-row-reverse" image="/images/home/checkbox-illustration.png">
+					<Radial className="w-full -left-[30%] h-auto top-0 " />
+					<Radial className="w-full h-auto -right-[60%] top-20" />
+					<h3 className="text-xl font-bold text-center md:text-left md:text-3xl z-30">
 						Rules and <br />
 						<span className="text-primary">Guidelines</span>
 					</h3>
-					<p className="text-montserrat text-center md:text-left text-sm md:text-base">
+					<p className="text-montserrat text-center md:text-left text-sm md:text-base z-30">
 						Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you&apos;re a
 						coding genius, a design maverick, or a concept wizard, you&apos;ll have the chance to transform your ideas into reality. Solving
 						real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that&apos;s what we&apos;re
@@ -39,13 +36,14 @@ export default function BodySection() {
 					</p>
 				</AlternateCard>
 				<div className="divider"></div>
-
 				<AlternateCard className="container" image="/images/home/chart-illustration.png">
-					<h3 className="text-xl font-bold text-center md:text-left md:text-3xl">
+					<Radial className="w-full -left-[30%] h-auto top-0 " />
+					<Radial className="w-full h-auto -right-[60%] top-20" />
+					<h3 className="text-xl font-bold text-center md:text-left md:text-3xl z-30">
 						Judging Criteria <br />
 						<span className="text-primary">Key attributes</span>
 					</h3>
-					<div className="text-center md:text-left flex flex-col gap-4">
+					<div className="text-center md:text-left flex flex-col gap-4 z-30">
 						<p className="text-sm md:text-base">
 							<span className="text-pink font-montserrat font-bold">Innovation and Creativity: </span>Evaluate the uniqueness and creativity of
 							the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.
@@ -70,7 +68,7 @@ export default function BodySection() {
 							competition-specific requirements.
 						</p>
 					</div>
-					<PrimaryButton className="mt-8 mx-auto px-6  py-3 md:mx-0">Read More</PrimaryButton>
+					<PrimaryButton className="mt-8 mx-auto px-6  py-3 md:mx-0 z-30">Read More</PrimaryButton>
 				</AlternateCard>
 				<div className="divider"></div>
 			</div>
